@@ -1,2 +1,2 @@
-# docker_for_ml
+# Docker for ML
 Docker for Machine Learning &amp; Data Science
