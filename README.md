@@ -45,3 +45,10 @@ Docker for Machine Learning &amp; Data Science
 - - Create container1: ``docker run -it --name=testvolume1 --mount source=testvolume,destination=/testvolume alpine`` -> ``cd testvolume`` -> ``touch examplevolumetest.txt``
 - - Create container2: ``docker run -it --name=newtestvolume --mount source=testvolume,destination=/testvolume alpine `` -> ``cd testvolume`` -> ``ls`` -> shows the ``examplevolumetest.txt`` file
 - - Exit: ``exit``
+
+# Compose
+- Running and defining multiple container applications.
+- Defined in a ``docker-compose.yml`` file.
+
+# Kubernetes
+- Tool for container orchestration
