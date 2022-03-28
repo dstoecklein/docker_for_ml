@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  datascience-notebook:
+    # pulling a jupyter notebook image from dockerhub
+    image: jupyter/tensorflow-notebook
+    volumes:
+      - /absolute/path/here
+    ports:
+      - 8888:8888
+    container_name: compose_test
