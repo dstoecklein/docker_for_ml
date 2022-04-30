@@ -19,7 +19,7 @@ Docker for Machine Learning &amp; Data Science
 - VMs are abstractions of physical hardware, turning one server into many servers.
 
 # Getting started
-- Dockerfile: Contains instructions to build a container
+- Dockerfile: Contains instructions to build a image
 - Build image: ``docker build -t testimage .``
 - Show images: ``docker images --all``
 - Build container: ``docker run --name testcontainer -p 5000:5000 testimage``
